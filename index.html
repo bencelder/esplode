@@ -1,1 +1,24 @@
-hello, world!
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fractal generator</title>
+        <script type="text/javascript" src="complex.js">
+        </script>
+        <script type="text/javascript" src="fract.js">
+        </script>
+    </head>
+    <body
+        onload="initialize();"
+        onkeydown="keyDown(event);"
+        onkeyup="keyUp(event);"
+        onmousemove="mouseMove(event);"
+        onmousedown="mouseDown(event);"
+        onmouseup="mouseUp(event);"
+        style="background-color:#444444; border: 0;">
+        <center>
+            <canvas id="myCanvas"
+            style="background-color#444444">
+            </canvas>
+        </center>
+    </body>
+</html>
